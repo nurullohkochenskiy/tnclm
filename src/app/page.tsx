@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
-  const hash = window.location.hash.slice(1);
+  const hash: string = (window as Window).location.hash.slice(1);
   console.log(hash); // tgWebAppData=...&tgWebAppVersion=6.2&...
 
   const params = new URLSearchParams(hash);
