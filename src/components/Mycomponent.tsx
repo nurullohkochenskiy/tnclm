@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export default function MyComponent() {
+export default function Mycomponent() {
   // Set the type of tgWebAppVersion to 'string | null'
   const [tgWebAppVersion, setTgWebAppVersion] = useState<string | null>(null);
 
